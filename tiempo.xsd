@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="predicciones">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="prediccion" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="realizada" type="xs:dateTime"/>
+							<xs:element name="ubicacion">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="localidad">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="nombre" type="xs:string"/>
+													<xs:element name="provincia" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:integer" use="required"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="dias">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="dia" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="periodos">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="periodo" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="precipitaciones" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="nieve" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="cielo" minOccurs="0" maxOccurs="1">
+																				<xs:complexType>
+																					<xs:simpleContent>
+																						<xs:extension base="xs:string">
+																							<xs:attribute name="estado" type="xs:string"/>
+																						</xs:extension>
+																					</xs:simpleContent>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="viento" minOccurs="0" maxOccurs="1">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="direccion" type="xs:string"/>
+																						<xs:element name="velocidad" type="xs:integer"/>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="rachas" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+																		</xs:sequence>
+																		<xs:attribute name="intervalo" type="xs:string"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="datos">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="dato" minOccurs="3" maxOccurs="3">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="max" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="min" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="horas" minOccurs="0" maxOccurs="1">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element minOccurs="4" maxOccurs="4" name="hora">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:integer">
+																										<xs:attribute name="valor" type="xs:string" use="required"/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																		<xs:attribute name="valor" use="required">
+																			<xs:simpleType>
+																				<xs:restriction base="xs:string">
+																					<xs:enumeration value="temperatura"/>
+																					<xs:enumeration value="sens_termica"/>
+																					<xs:enumeration value="humedad_relativa"/>
+																				</xs:restriction>
+																			</xs:simpleType>
+																		</xs:attribute>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="uvmax" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+												</xs:sequence>
+												<xs:attribute name="fecha" type="xs:date" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

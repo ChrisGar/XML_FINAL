@@ -1,0 +1,31 @@
+<!ELEMENT predicciones (prediccion+)>
+<!ELEMENT prediccion (realizada, ubicacion, dias)>
+<!ELEMENT realizada (#PCDATA)>
+<!ELEMENT ubicacion (localidad)>
+<!ATTLIST ubicacion id CDATA #REQUIRED>
+<!ELEMENT localidad (nombre, provincia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT dias (dia*)>
+<!ELEMENT dia (periodos, datos, uvmax?)>
+<!ATTLIST dia fecha CDATA #REQUIRED>
+<!ELEMENT periodos (periodo*)>
+<!ELEMENT periodo (precipitaciones?, nieve?, cielo?, viento?, rachas?)>
+<!ATTLIST periodo intervalo CDATA #REQUIRED>
+<!ELEMENT viento (direccion, velocidad)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT velocidad (#PCDATA)>
+<!ELEMENT precipitaciones (#PCDATA)>
+<!ELEMENT nieve (#PCDATA)>
+<!ELEMENT cielo (#PCDATA)>
+<!ATTLIST cielo estado CDATA #REQUIRED>
+<!ELEMENT rachas (#PCDATA)>
+<!ELEMENT datos (dato*)>
+<!ELEMENT dato (max, min, horas?)>
+<!ATTLIST dato valor CDATA #REQUIRED>
+<!ELEMENT max (#PCDATA)>
+<!ELEMENT min (#PCDATA)>
+<!ELEMENT horas (hora*)>
+<!ELEMENT hora (#PCDATA)>
+<!ATTLIST hora valor CDATA #REQUIRED>
+<!ELEMENT uvmax (#PCDATA)>

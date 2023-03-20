@@ -1,0 +1,364 @@
+<predicciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tiempo.xsd">
+	<prediccion>
+		<realizada>2023-03-10T07:16:42</realizada>
+		<ubicacion id="46250">
+			<localidad>
+				<nombre>Val�ncia</nombre>
+				<provincia>Val�ncia/Valencia</provincia>
+			</localidad>
+		</ubicacion>
+		<dias>
+			<dia fecha="2023-03-10">
+				<periodos>
+					<periodo intervalo="00-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>20</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="00-12">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>30</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="12-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>20</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="00-06">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17n</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>30</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="06-12">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>20</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="12-18">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>15</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="18-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12n</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>10</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>26</max>
+						<min>16</min>
+						<horas>
+							<hora valor="06">17</hora>
+							<hora valor="12">24</hora>
+							<hora valor="18">25</hora>
+							<hora valor="24">20</hora>
+						</horas>
+					</dato>
+					<dato valor="sens_termica">
+						<max>27</max>
+						<min>16</min>
+						<horas>
+							<hora valor="06">17</hora>
+							<hora valor="12">24</hora>
+							<hora valor="18">25</hora>
+							<hora valor="24">20</hora>
+						</horas>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>50</max>
+						<min>25</min>
+						<horas>
+							<hora valor="06">50</hora>
+							<hora valor="12">30</hora>
+							<hora valor="18">30</hora>
+							<hora valor="24">40</hora>
+						</horas>
+					</dato>
+				</datos>
+				<uvmax>5</uvmax>
+			</dia>
+			<dia fecha="2023-03-11">
+				<periodos>
+					<periodo intervalo="00-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>25</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="00-12">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>25</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="12-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>25</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="00-06">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12n</cielo>
+						<viento>
+							<direccion>SO</direccion>
+							<velocidad>10</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="06-12">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>25</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="12-18">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>NO</direccion>
+							<velocidad>25</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="18-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17n</cielo>
+						<viento>
+							<direccion>NO</direccion>
+							<velocidad>15</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>31</max>
+						<min>18</min>
+						<horas>
+							<hora valor="06">18</hora>
+							<hora valor="12">27</hora>
+							<hora valor="18">27</hora>
+							<hora valor="24">20</hora>
+						</horas>
+					</dato>
+					<dato valor="sens_termica">
+						<max>31</max>
+						<min>18</min>
+						<horas>
+							<hora valor="06">18</hora>
+							<hora valor="12">27</hora>
+							<hora valor="18">27</hora>
+							<hora valor="24">20</hora>
+						</horas>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>60</max>
+						<min>20</min>
+						<horas>
+							<hora valor="06">60</hora>
+							<hora valor="12">25</hora>
+							<hora valor="18">25</hora>
+							<hora valor="24">40</hora>
+						</horas>
+					</dato>
+				</datos>
+				<uvmax>5</uvmax>
+			</dia>
+			<dia fecha="2023-03-12">
+				<periodos>
+					<periodo intervalo="00-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>SE</direccion>
+							<velocidad>10</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="00-12">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>NO</direccion>
+							<velocidad>15</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="12-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>SE</direccion>
+							<velocidad>10</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>28</max>
+						<min>16</min>
+					</dato>
+					<dato valor="sens_termica">
+						<max>28</max>
+						<min>16</min>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>70</max>
+						<min>30</min>
+					</dato>
+				</datos>
+				<uvmax>5</uvmax>
+			</dia>
+			<dia fecha="2023-03-13">
+				<periodos>
+					<periodo intervalo="00-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>SO</direccion>
+							<velocidad>20</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="00-12">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>SO</direccion>
+							<velocidad>20</velocidad>
+						</viento>
+					</periodo>
+					<periodo intervalo="12-24">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>O</direccion>
+							<velocidad>25</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>31</max>
+						<min>13</min>
+					</dato>
+					<dato valor="sens_termica">
+						<max>31</max>
+						<min>13</min>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>75</max>
+						<min>15</min>
+					</dato>
+				</datos>
+				<uvmax>5</uvmax>
+			</dia>
+			<dia fecha="2023-03-14">
+				<periodos>
+					<periodo intervalo="">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Nubes altas">17</cielo>
+						<viento>
+							<direccion>SO</direccion>
+							<velocidad>10</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>25</max>
+						<min>14</min>
+					</dato>
+					<dato valor="sens_termica">
+						<max>25</max>
+						<min>14</min>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>50</max>
+						<min>20</min>
+					</dato>
+				</datos>
+				<uvmax>4</uvmax>
+			</dia>
+			<dia fecha="2023-03-15">
+				<periodos>
+					<periodo intervalo="">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>SE</direccion>
+							<velocidad>15</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>22</max>
+						<min>11</min>
+					</dato>
+					<dato valor="sens_termica">
+						<max>22</max>
+						<min>11</min>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>75</max>
+						<min>35</min>
+					</dato>
+				</datos>
+			</dia>
+			<dia fecha="2023-03-16">
+				<periodos>
+					<periodo intervalo="">
+						<precipitaciones>0</precipitaciones>
+						<cielo estado="Poco nuboso">12</cielo>
+						<viento>
+							<direccion>E</direccion>
+							<velocidad>15</velocidad>
+						</viento>
+					</periodo>
+				</periodos>
+				<datos>
+					<dato valor="temperatura">
+						<max>21</max>
+						<min>9</min>
+					</dato>
+					<dato valor="sens_termica">
+						<max>21</max>
+						<min>9</min>
+					</dato>
+					<dato valor="humedad_relativa">
+						<max>75</max>
+						<min>55</min>
+					</dato>
+				</datos>
+			</dia>
+		</dias>
+	</prediccion>
+</predicciones>
